@@ -1,0 +1,143 @@
+.navbar{
+    background-color: white;
+}
+.me-auto{
+    margin-left: 25%;
+}
+.nav-link{
+    color: black;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+}
+.nav-link:hover{
+    background-color: rgb(189, 189, 0);
+    color: black;
+    transform: scale(1.1);
+    margin: 0 5px;
+}
+.nav-link:active{
+    color: black;
+}
+.navbar-brand{
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 7%;
+}
+.navbar-brand:active{
+    color: black;
+}
+.first-part{
+    background-color: rgb(252, 243, 81);
+    padding: 10% 10%;
+}
+.first-part h1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.first-part p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.active{
+    color: rgb(236, 228, 67);
+}
+.download-bttn{
+    display: flex;
+    margin-left: 0%;
+    margin-top: 10%;
+}
+.download-bttn button{
+    margin-right: 7%;
+    width: 50%;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-bottom: 10%;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.download-bttn button:hover{
+    background-color: aliceblue;
+    transform: scale(1.2);
+    color: black;
+}
+.footer h1{
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-weight: bolder;
+}
+.footer p{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.download_bttn{
+    display: flex;
+    margin-left: 5%;
+}
+.download_bttn button{
+    margin-right: 7%;
+    width: 50%;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-bottom: 10%;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.download_bttn button:hover{
+    background-color: aliceblue;
+    transform: scale(1.2);
+    color: black;
+}
+.last-links{
+    margin: 3% 5%;
+}
+.last-links a{
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+    margin-right: 25px;
+}
+.links a{
+    margin: 0 25px;
+}
+.sp{
+    font-size:10px;
+}
+@media only screen and (max-width: 991px) {
+    .me-auto {
+        margin-left: 0;
+    }
+    .navbar-brand{
+        margin-left: 0;
+    }
+    .navbar-brand:active{
+        color: black;
+    }
+}
+@media only screen and (max-width: 579px) {
+    .download_bttn button{
+        font-size: 10px;
+    }
+    .sp{
+        font-size: 10px;
+    }
+    .navbar-brand:active{
+        color: black;
+    }
+}
+@media only screen and (max-width: 442px) {
+    .download_bttn button{
+        font-size: 10px;
+    }
+    .sp{
+        font-size: 10px;
+    }
+    .navbar-brand:active{
+        color: black;
+    }
+}

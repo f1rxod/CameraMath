@@ -1,0 +1,364 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-color: rgb(252, 243, 81);
+}
+.me-auto{
+    margin-left: 25%;
+}
+.nav-link{
+    color: black;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+}
+.nav-link:active{
+    color: black;
+}
+.nav-link:hover{
+    background-color: rgb(189, 189, 0);
+    color: black;
+    transform: scale(1.1);
+    margin: 0 5px;
+}
+.navbar-brand{
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 7%;
+}
+.navbar-brand a{
+    text-decoration: none;
+    color: black;
+}
+.intro, 
+.third{
+    background-color: rgb(252, 243, 81);
+}
+.intro h1{
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 0 0 2% 15%;
+    padding-top: 7%;
+}
+.intro p{
+    margin:  0 0 5% 15%;
+}
+.intro img{
+    float: right;
+}
+.download-bttn{
+    display: flex;
+    margin-left: 15%;
+}
+.download-bttn button{
+    margin-right: 7%;
+    width: 50%;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-bottom: 10%;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.download-bttn button:hover{
+    background-color: aliceblue;
+    transform: scale(1.2);
+    color: black;
+}
+.second{
+    background-color: rgb(248, 249, 251);
+}
+.functions-bttn{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.functions-bttn button{
+    border:none;
+    width: 70%;
+    padding: 30px 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-weight: bolder;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: left;
+    background-color: white;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+}
+.btn{
+    margin-bottom: 5%;
+}
+.functions-bttn button:hover{
+    background-color: yellow;
+}
+.functions-bttn button:active{
+    background-color: yellow;
+}
+.img_first{
+    width: 90%; 
+    margin: 5% 0% 0 10%;
+}
+.third h1{
+    text-align: center;
+    font-weight: 900;
+    padding-top: 10%;
+}
+.third img{
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.types{
+    margin-left: 5%;
+}
+.types button{
+    transition: .4s;
+    transition-timing-function: ease-in-out;
+    border: none;
+    border-radius: 35px;
+    padding: 20px 50px;
+    background-color: rgb(254, 251, 202);
+    margin: 5% 100px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.types button:hover{
+    background-color: aquamarine;
+    color: white;
+}
+.opinions{
+    background-color: rgb(248, 249, 251);
+    padding: 10% 5%;
+}
+.opinions h1{
+    text-align: center;
+    font-weight: 900;
+    margin: 0 20% 8%;
+}
+.active-one{
+    transform: scale(1.1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 30px 100px 0;
+    margin: 0 50px;
+}
+.active-in-phone{
+    box-shadow: 0;
+}
+.card{
+    border: none;
+}
+.card-header{
+    background-color: rgb(248, 249, 251);
+    border: none;
+}
+.ambassador{
+    background-color: rgb(252, 243, 80);
+}
+.ambassador h1{
+    margin: 15% 10% 5%;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ambassador p{
+    margin: 0% 10% 5%;
+}
+.perks h6{
+    color: white;
+    margin: 10% 5% 0;
+    font-size: xx-large;
+}
+.perks p{
+    color: white;
+    margin-left: 5%;
+
+}
+.perk-txt{
+    padding: 2.5% 30px 0; 
+    background-color: aliceblue; 
+    margin: 5% 5% 0; 
+    border-radius: 40px; 
+    width: 50%;
+}
+.btns:active{color: black;}
+.perk-txt p{
+    color: black;
+    font-size: larger;
+}
+.row{
+    padding-bottom: 5%;
+}
+.ambassador button{
+    margin: 0% 10%;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: lighter;
+    transition: .4s;
+    transition-timing-function: ease-in-out;
+}
+.ambassador button:hover{
+    background-color: white;
+    color: black;
+}
+.footer h1{
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-weight: bolder;
+}
+.footer p{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.links a{
+    margin: 0 25px;
+}
+.last-links{
+    margin: 3% 5%;
+}
+.last-links a{
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+    margin-right: 25px;
+}
+.download_bttn{
+    display: flex;
+    margin-left: 5%;
+}
+.download_bttn button{
+    margin-right: 7%;
+    width: 30%;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-bottom: 10%;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.download_bttn button:hover{
+    background-color: aliceblue;
+    transform: scale(1.2);
+    color: black;
+}
+@media only screen and (max-width: 991px) {
+    .me-auto {
+        margin-left: 0;
+    }
+    .navbar-brand{
+        margin-left: 0;
+    }
+    .intro img{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .intro p,
+    .intro h1{
+        text-align: center;
+        margin: 0 0 5%;
+    }
+    .download-bttn{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        justify-content: center;
+        text-align: center;
+    }
+    .img_first {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .functions-bttn{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    .nav-link:hover{
+        transform: scale(1);
+    }
+    .types button{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        color: black;
+    }
+    .types button:active{
+        color: black;
+    }
+    .active-one{
+    transform: scale(0.8);
+    
+    }
+    .op-parts .col-lg-3, .op-parts .col-lg-5{
+        margin-bottom: 100px;
+    }
+    .active-in-phone{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+}
+@media only screen and (max-width:550px) {
+    .download-bttn{
+        font-size: smaller;
+        width: 100%;
+    }
+    .intro h1{
+        font-size: 30px;
+    }
+    .functions-bttn button{
+        font-size: smaller;
+        padding: 0;
+        color: black;
+    }
+    .active-in-phone{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+}
+@media only screen and (max-width:442px){
+    .download_bttn button{
+        font-size: 10px;
+        width: 50%;
+    }
+    .sp{
+        font-size: 10px;
+    }
+    .functions-bttn button{
+        font-size: smaller;
+        padding: 0;
+        color: black;
+    }
+    .perks h6{
+        color: white;
+        margin: 10% 5% 0;
+        font-size: x-large;
+    }
+    .perks p{
+        font-size: 14px;
+    }
+    .active-in-phone{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+}
+@media only screen and (max-width:1307px){
+    .active-one{
+        transform: scale(1);
+        box-shadow: 0;
+        padding: 30px;
+        margin: 0px;
+        }
+}

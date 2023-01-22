@@ -1,0 +1,179 @@
+.navbar{
+    background-color: white;
+}
+.me-auto{
+    margin-left: 25%;
+}
+.nav-link{
+    color: black;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+}
+.nav-link:active{
+    color: black;
+}
+.navbar-brand:active{
+    color: black;
+}
+.nav-link:hover{
+    background-color: rgb(189, 189, 0);
+    color: black;
+    transform: scale(1.1);
+    margin: 0 5px;
+}
+.navbar-brand{
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 7%;
+}
+.navbar-brand a{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    color: rgb(236, 228, 67);
+}
+.footer h1{
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-weight: bolder;
+}
+.footer p{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.last-links{
+    margin: 3% 5%;
+}
+.last-links a{
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+    margin-right: 25px;
+}
+.links a{
+    margin: 0 25px;
+}
+.download_bttn{
+    display: flex;
+    margin-left: 5%;
+}
+.download_bttn button{
+    margin-right: 7%;
+    width: 30%;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-bottom: 10%;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.download_bttn button:hover{
+    background-color: aliceblue;
+    transform: scale(1.2);
+    color: black;
+}
+.ask-live{
+    background-color: rgb(253, 243, 81);
+    width: 100%;
+}
+.ask-live h3{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 900;
+}
+.ask-live button{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding:  10px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    font-size: small;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+}
+.ask-live button:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+.options a{
+    font-size: larger;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+    text-decoration: none;
+    color: black;
+}
+.options a:hover{
+    font-size: x-large;
+}
+.options{
+    background-color: white;
+    padding: 25px 0 ;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    text-align: center;
+}
+.col-4{
+    text-align: center;
+}
+body{
+    background-color: rgb(248, 249, 251);
+}
+.lessons{
+    margin: 0 5%;
+}
+.first{
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 30px;
+    width: 30%;
+}
+.link-lesson{
+    text-decoration: none; 
+    color: black;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+}
+.link-lesson img{
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+}
+.link-lesson img:hover{
+    transform: scale(1.2);
+
+}
+@media only screen and (max-width:991px) {
+    .first{
+        width: 45%;
+    }
+    .should{
+        margin-top: 30px;
+    }
+    .me-auto{
+        margin-left: 0;
+    }
+    .navbar-brand{
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width:767px) {
+    .options{
+        text-align: center;
+    }
+}
+@media only screen and (max-width:640px) {
+    .first{
+        width: 100%;
+    }
+    .should{
+        margin-top: 30px;
+    }
+}
